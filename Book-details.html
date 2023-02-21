@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/styles.css">
+    <link rel="stylesheet" href="./Css/Book-details.css">
+    <link rel="stylesheet" href="./Css/Responsive/Book-Details-Responsive.css">
+    <script
+      src="https://kit.fontawesome.com/7ae8cef8ca.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://kit.fontawesome.com/7ae8cef8ca.js" crossorigin="anonymous"></script>
+    <title>Book-Details-Landing-Page</title>
+</head>
+<body>
+
+    <!-- navbar starts -->
+    <nav>
+        <div>
+          <nav class="navbar navbar-expand-lg shadow-sm">
+            <div class="container-fluid ms-5">
+              <a class="navbar-brand" href="#">
+                <img
+                  src="./Image/Logo1.png"
+                  alt="Bootstrap"
+                  width="65"
+                  height="50"
+                />
+              </a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" aria-current="page" href="#"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-white"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Learning Path
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Another action</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white" href="#">Jobs</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white">Blogs</a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link text-white">About</a>
+                  </li>
+                </ul>
+  
+                <ul class="me-5 pt-2">
+                  <a href=""><i class="fa-solid fa-magnifying-glass text-white"></i></a>
+                  <a class="mx-2" href=""
+                    ><i class="fa-solid fa-cart-shopping text-white"></i
+                  ></a>
+                  <a class="mx-2" href=""
+                    ><i class="fa-regular fa-bookmark text-white"></i
+                  ></a>
+                  <button
+                    class="mx-2 px-3 rounded-pill sign-in-btn"
+                  >
+                    Sign in
+                  </button>
+                  <button
+                    id="btn-signup"
+                    class="px-3 py-1 rounded-pill text-white border-0"
+                  >
+                    Sign up
+                  </button>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </nav>
+      <!-- navbar ends -->
+
+    <main class="book-detail container">
+        <section class="mt-4">
+            <h5 class="ps-2 writer-text">About Writer</h5>
+            <div class="writer-body">
+                <div class="writer">
+                    <div class="writer-details">
+                        <h4 class="fw-bold">Alex Allain</h4>
+                        <p>CEO, Freelancer at Upwork</p>
+                    </div>
+                    <div class="witer-img">
+                        <img src="./Image/unsplash_qp30IRLPgsg.png" alt="">
+                    </div>
+                </div>
+                <div class="writer-description">
+                    <p><small>Eget eu sed at tincidunt. Ornare lorem sed nunc nisl lacus. Tincidunt cursus tortor vitae lectus id tincidunt pulvinar ut in. Ipsum nulla fermentum malesuada id imperdiet.</small></p>
+                </div>
+            </div>
+        
+
+            <div>
+                <h5 class="mt-4 ps-2 writer-text">About Book</h5>
+                <div class="about-book">
+                <h4 class="fw-bold">Jumping into C++</h4>
+                <p>Sed sem nulla suspendisse sapien vitae. Leo facilisi proin lacinia eget bibendum rhoncus faucibus feugiat consequat. In eu convallis felis commodo felis dolor amet habitant at. Elementum lorem eget mi turpis justo convallis nisi. Congue tristique et aliquet gravida dictum viverra quis tortor sed. Nunc magnis et vestibulum sapien, gravida neque ultrices pellentesque scelerisque. Quam a rhoncus semper tincidunt felis ipsum. Pharetra neque libero in neque, vitae venenatis. Eu varius eu dictum donec eu adipiscing non nunc. Turpis malesuada neque elementum amet at proin quisque diam.</p>      
+            </div>
+        </section>
+
+
+        <section class="book">
+            <div class="overview">
+                <div class="book-img">
+                    <img src="./Image/cover_with_border_jumping_into_C++ 1.png" alt="">
+                </div>
+                <div>
+                    <div class="price">
+                        <h4 class="fw-bold">BDT. 300</h4>
+                        <p class="text-decoration-line-through text-danger"><small>BDT. 500</small></p>
+                    </div>
+                    <div class="book-status">
+                        <div class="page">
+                            <div class="bg-page-icon text-white">
+                                <span><i class="fa-solid fa-pager"></i></span>
+                            </div>
+                            <div>
+                                <h5 class="text">Page</h5>
+                                <p class="fw-bold">200</p>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div class="bg-format-icon text-white">
+                                <span><i class="fa-solid fa-file-pdf pdf-file"></i></span>
+                            </div>
+                            <div>
+                                <h5 class="text">Format</h5>
+                                <p class="fw-bold">PDF</p>
+                            </div>
+                        </div>
+                        <div class="page">
+                            <div class="bg-file-icon text-white">
+                                <span class="icon-size"><i class="fa-solid fa-file file-size"></i></span>
+                            </div>
+                            <div>
+                                <h5 class="text">File Size</h5>
+                                <p class="fw-bold">10 MB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="book-details mt-4">
+                <h3 class="fw-bold">Jumping into C++</h3>
+                <p><small>Donec tellus dolor arcu, sed. Eu diam neque accumsan urna, at blandit. Donec sit neque, tincidunt ultricies tempus egestas sed eget.</small></p>
+            </div>
+            <div class="apply-promo-code">
+                <div class="promo-input">
+                    <input class="input-promo" type="text" placeholder="Apply Promo Code">
+                </div>
+                <div class="promo-apply-input">
+                    <button class="primary-btn">Apply</button>
+                </div>
+            </div>
+            <div class="buy">
+                <button class="buy-book">Buy This Book <span class="arrow"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
