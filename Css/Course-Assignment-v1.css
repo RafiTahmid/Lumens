@@ -1,0 +1,386 @@
+.lower-section{
+    margin-top: -150px;
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+
+/* left-section */
+
+
+/* exam-topic starts*/
+
+.exam-topic{
+    background-color: #9c9a9a;
+    border-radius: 12px 12px 0px 0px;
+    padding: 23px;
+    margin-bottom: 20px;
+    height: 110px;
+}
+
+
+.topic{
+    color: white;
+}
+
+.ques-time{
+    color: white;
+}
+
+.exam-ques {
+    padding: 0px 23px 25px 23px;
+    border-bottom: 1px dashed #A7A7A7;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column  ;
+    gap: 10px;
+}
+
+
+/* pdf uploader Starts*/
+
+.uploader{
+    display: flex;
+    background: #FBFBFB;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    width: 50%;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    
+}
+.uploader-2{
+    display: flex;
+    background: #FBFBFB;
+    border: 1px solid #DEDEDE;
+    border-radius: 8px;
+    width: 50%;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+    
+}
+
+.delete-icon{
+  
+    bottom: 409px;
+    left: 380px;
+}
+
+.pdf-img{
+    border-right: 1px solid #A7A7A7;
+    padding-right: 7px;
+}
+
+.uploader p{
+    margin: 0;
+}
+
+.delete-upload{
+    display: flex;
+    gap: 20px;
+}
+
+.img-lesson{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-downloader{
+    background: #FFFFFF;
+    border: none;
+    padding: 0px 6px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: absolute;
+    top: 7px;
+    right: 2px;
+        
+}
+
+.to-flex-upload-icon{
+    /* display: flex;
+    justify-content: space-between; */
+
+    position: relative;
+}
+
+/* pdf uploader Ends*/
+
+
+/* Submit input Starts*/
+
+.submit-ans{
+    color: #242424;
+    padding: 0px 23px 0px 23px;
+    position: relative;
+}
+
+.submit-ans input{
+    border: 1px solid #dfdfdf;
+    padding: 25px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 12px;
+    background: #fbfbfb;
+}
+
+/* Submit Input Ends */
+
+.question{
+    display: flex;
+    gap: 15px;
+    border-radius: 6px;
+    align-items: center;
+    background-color: #F4F4F4;
+    padding: 15px 0px 15px 20px;
+}
+
+.question p{
+    margin-bottom: 0px;
+}
+
+/* exam-topic ends */
+
+
+.left-section{
+    
+    width: 65%;
+
+}
+
+.lower-first{
+    border: none;
+    border-radius: 12px;
+    
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.prev{
+    display: flex;
+    gap: 15px;
+    color: #7C7C7C;
+}
+
+.prev i{
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.btn-previous{
+    border: 1px solid #62d180;
+    border-radius: 6px;
+    padding: 8px 15px;
+    color: #62d180;
+
+}
+.btn-next{
+    border: 1px solid #62d180;
+    border-radius: 6px;
+    padding: 8px 20px;
+    background-color: #62d180;
+    color: white;
+
+}
+
+.skip{
+    color: #7C7C7C;
+    margin-top: 8px;
+}
+
+.cancel-submit{
+    display: flex;
+    justify-content: flex-end;
+    padding: 23px;
+    gap: 25px;
+    color: #62D18D;
+
+}
+
+.next i{
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+
+.prev-next hr{
+    color: #A7A7A7;
+    font-weight: bold;
+}
+
+.play-intro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #242424;
+    /* padding: 0px 23px 0px 23px; */
+}
+
+.video-details{
+    padding: 0px 23px 0px 23px;
+}
+.play-intro h4{
+    margin-top: 7px;
+}
+
+.details{
+    margin-top: -10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #7C7C7C;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    
+}
+
+.details p{
+    padding: 2.5% 6% 2.5% 6%;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0;
+}
+
+
+.first-child{
+    background-color: #62D18D;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.details-text{
+    margin-top: 25px;
+    padding: 20px;
+}
+
+
+/* top right section */
+
+.right-top-section{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 12px 0px 0px 12px;
+    padding: 23px;
+    background-color: white;
+    width: 100%;
+    position: relative;
+}
+
+.user-info{
+    display: flex;
+    gap: 20px;
+}
+
+.user-progress {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.progress-bar{
+    background-color: #62d180 !important;
+    border-radius: 10px;
+    height: 5px;
+}
+
+.user{
+    display: flex;
+}
+
+.expand-icon{
+    position: absolute;
+    right: -31px;
+    top: 0px;
+    color: white;
+    font-size: 20px;
+    height: 209.7px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #62D18D;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 8px 8px 0px;
+}
+
+.right-section{
+    width: 32%;
+}
+
+.accordian-play-icon{
+    color: #A7A7A7;
+}
+
+.to-flex-check-box{
+    display: flex;
+    gap: 235px;
+}
+
+.accordian-check-box{
+    color: #62D18D;
+    font-size: 25px;
+    position: absolute;
+    top: 81px;
+    right: 20px;
+
+}
+
+.accordian-square-box{
+    font-size: 25px;
+    position: relative;
+    top: -25px;
+    font-weight: normal;
+}
+
+.custom-acc-body{
+    background-color: #F4F4F4;
+    border-bottom: 1px solid #A7A7A7    ;
+}
+
+.custom-header-bg{
+    background: #FFFFFF;
+}
+
+.bg-square{
+    background-color: white;
+    
+}
+
+.right-lower-section{
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    border: none;
+    position: relative;
+}
+
+.chapter-text{
+    color: #242424;
+    font-weight: bold;
+}
+
+.accordion-button:not(.collapsed){
+    color: #242424 !important   ;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+.flex-checkbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}

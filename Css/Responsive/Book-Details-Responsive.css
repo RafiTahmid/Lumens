@@ -1,0 +1,83 @@
+@media screen and (max-width: 575px){
+    .promo-input{
+        width: 100%;
+    }
+    .promo-apply-input{
+        width: 100%;
+    }
+    .book-detail{
+        flex-direction: column;
+    }
+
+    .book-img{
+        text-align: center;
+    }
+
+    .overview{
+        flex-direction: column;
+    }
+
+    .book-status{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .price{
+        width: 100%;
+        text-align: center;
+    }
+
+    .page{
+        margin-top: none;
+    }
+
+    .apply-promo-code{
+        flex-wrap: wrap;
+    }
+
+    .primary-btn{
+        width: 100%;
+    }
+
+    .buy-book{
+        width: 100%;
+        padding: none;
+    }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .book-detail{
+        flex-direction: column;
+    }
+
+    .book-img{
+        text-align: center;
+    }
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .book-detail{
+        flex-direction: column;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+
+
+
+}
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px){
+
+
+
+}

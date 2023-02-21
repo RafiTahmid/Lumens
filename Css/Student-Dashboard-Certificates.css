@@ -1,0 +1,319 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.top{
+    background-image: url(../images/Group\ 19009.png);
+    height: 165px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    background: transparent;
+    
+    border-radius: 12px;
+    margin-top: -95px;
+}
+.right-section{
+    background-color: #F5F6FA;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* -------------------------- Dashboard */
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #62D18D;
+    text-shadow: 0px 4px 8px rgba(98, 209, 141, 0.25);
+    padding-top: 22px;
+}
+.dashboard{
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 800px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.icon{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.dashboard-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: rgba(36, 36, 36, 0.8);
+    padding-left: 20px;
+    margin-top: 12px;
+}
+
+.logout-btn{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+.dashboard-bottom{
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid gray;
+    width: 100%;
+}
+.active{
+    background-color: rgba(98, 209, 141, 0.15);
+    border-right: 5px solid #62D18D;
+}
+
+/* ----------------------------------------------------- */
+.btn1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #62D18D;
+    padding: 17px 39px;
+    border: none;
+    border-radius: 12px 0px 0px 0px;
+}
+
+.btn{
+    font-weight: bold;
+}
+
+.nav{
+    background-color: white;
+    border-radius: 12px 12px 0px 0px;
+}
+.user-btn{
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 20px;
+    border-radius: 12px;
+}
+.user-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    color: #242424;
+    padding: 0px 10px;
+    margin-top: 18px;
+}
+/* ------------------------------- */
+
+.cards-body{
+    margin-top: 35px;
+    padding: 0px 5px 360px 4px;
+}
+
+.course-img img{
+    width: 255px;
+    border-radius: 14px 14px 0 0;
+}
+
+.card{
+    width: 255px;
+    border-radius: 14px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.08);
+    border: none;
+    position: relative;
+}
+
+.course-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2C;
+}
+
+.progress-time{
+    font-weight: 500;
+    
+}
+
+.progress{
+    height: 4px;
+    width: 199px;
+}
+
+.progress-bar {
+    background-color: #62d180 !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--bs-progress-bar-bg);
+    transition: var(--bs-progress-bar-transition);
+}
+
+.progress-text{
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+.time-to-go{
+    font-weight: 500;
+    color: #242424;
+    font-size: 14px;
+}
+
+.progress-clr{
+    color: #62d18d;
+}
+
+hr{
+    margin: 0;
+}
+
+.course-name{
+    font-weight: 600;
+    font-size: 15px;
+    padding: 8px 15px 8px 15px;
+    background-color: #FBFBFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.download-icon{
+    border: none;
+    padding: 4px 7px;
+    border-radius: 7px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-details{
+    padding: 8px 15px 8px 15px;
+    border-radius: 0 0 14px 14px; 
+    background-color: #FBFBFB;
+}
+
+.course-details p{
+    font-size: 14px;
+}
+
+.verification-clr{
+    color: #242424;
+    font-weight: 500;
+}
+
+.author-details img{
+    height: 42px;
+    width: 42px;
+}
+
+
+/* positioned items */
+
+.intermediate-pos{
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    width: 85px;
+    height: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: #2C2C2C;
+    position: absolute;
+    right: 7px;
+    top: 131px;
+    border-radius: 3px;
+}
+
+.accepted-pos{
+    margin-bottom: 0;
+    width: 62px;
+    height: 17px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    right: 172px;
+    top: 15px;
+    border-radius: 3px;
+}
+
+.bundle-pos{
+    margin-bottom: 0;
+    padding: 1px 4px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: #242424;
+    position: absolute;
+    right: 172px;
+    top: 13px;
+    border: 1px solid #F68900;
+    border-radius: 5px;
+}
+
+.bookmark-pos{
+    margin-bottom: 0;
+    padding: 5px 11px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: gold;
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    border-radius: 6px;
+}
+
+.share-icon-pos{
+    margin-bottom: 0;
+    padding: 0px 7px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    color: #62D18D;
+    position: absolute;
+    right: 13px;
+    top: 12px;
+    border: none;
+    border-radius: 6px;
+}
+
+.bundle-clr{
+    background-color: #F689001A;
+}
+
+.accept-clr{
+    background-color: #62D18D;
+}
+
+.pending-clr{
+    background-color: #F68900;
+}
+
+.rejected-clr{
+    background-color: #E42525;
+}
+
+.certified-clr{
+    color: #525252;
+}
+
+.share-icon-clr{
+    background-color: white;
+}
+

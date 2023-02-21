@@ -1,0 +1,185 @@
+/* About Writer */
+
+body{
+    background-color: #FAFAFA;
+}
+
+.writer-text{
+    font-size: 20px;
+    color: #5E5E5E;
+}
+
+.book-detail{
+    display: flex;
+    gap: 24px;
+    margin-top: 30px;
+}
+
+.book-details{
+    padding-left: 5px;
+}
+ 
+.writer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.writer-body{
+    border: none;
+    background-color: white;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+.writer small{
+    word-wrap: break-word;
+}
+
+.writer img{
+    height: 70px;
+    width: 70px;
+}
+
+
+.about-book{
+    border: none;
+    background-color: white;
+    padding: 24px;
+    border-radius: 20px;
+}
+
+
+/* Book */
+
+.book-img img{
+    box-shadow: 0 4px 8px 0 rgba(168, 164, 164, 0.1), 0 6px 20px 0 rgba(168, 164, 164, 0.1);
+    border: none;
+    border-radius: 10px;
+    /* new */
+    height: 300px;
+}
+
+
+.apply-promo-code{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 11px;
+    padding-left: 5px;
+}
+
+.pdf-file{
+    font-size: 19px;
+}
+
+.file-size{
+    font-size: 18x;
+}
+
+.input-promo{
+    width: 100%;
+    height: 56px;
+    padding: 18px 0px 18px 20px;
+    border-radius: 10px;
+    border: 1px solid #D2D2D2;
+}
+
+.primary-btn{
+    height: 100%;
+}
+
+.promo-apply-input{
+    width: 30%;
+}
+
+.buy{
+    padding-left: 5px;
+}
+
+.buy-book{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 27px;
+    background-image: linear-gradient(#62d18d, #1b904e);
+    border-radius: 12px;
+    border: none;
+    padding: 3%;
+    color: white;
+    position: relative;
+}
+
+.promo-input{
+    width: 70%;
+}
+
+.arrow{
+    position: absolute;
+    right: 20px;
+}
+
+.book{
+    border: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 56px;
+
+}
+
+.overview{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.book-status{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+
+.price{
+    border: 2px solid #62D18D;
+    height: 71px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px 0px 0px 15px;
+}
+
+.bg-page-icon{
+    background-color: #62D18D;
+    padding: 18px 22px;
+    height: 56px;
+    width: 56px;
+    border: none;
+    border-radius: 8px;
+}
+
+.page{
+    
+    display: flex;
+    gap: 20px;
+}
+
+.text{
+    color: rgba(36, 36, 36, 0.7);
+}
+
+.bg-format-icon{
+    background-color: #FFA425;
+    padding: 18px 22px;
+    height: 56px;
+    width: 56px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bg-file-icon{
+    background-color: #EF6161;
+    padding: 18px 22px;
+    height: 56px;
+    width: 56px;
+    border: none;
+    border-radius: 8px;
+}
+

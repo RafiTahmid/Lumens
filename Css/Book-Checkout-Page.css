@@ -1,0 +1,185 @@
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.btn-cross{
+    
+    position: absolute;
+    right: -11px;
+    top: -11px;
+}
+
+
+.btn-cross i{
+    background: white;
+    border-radius: 50%;
+    font-size: 30px;
+    color: red;
+}
+
+
+.lower-section{
+    /* position: relative;
+    top: -140px; */
+    margin-top: -140px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.pricing{
+    margin-top: 69px;
+}
+
+
+.book{
+    display: flex;
+    gap: 25px;
+    position: relative;
+    border: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+    padding: 23px;
+    height: 40%;
+    width: 68%;
+    background-color: white;
+}
+
+
+
+
+
+.book-img img{
+    box-shadow: 0 4px 8px 3px rgba(168, 164, 164, 0.1), 0 6px 20px 0 rgba(168, 164, 164, 0.1);
+    border: none;
+    border-radius: 10px;
+    width: 153px;
+    
+}
+
+.icon-cancel{
+    position: absolute;
+    top: -7px;
+    right: -6px;
+    color: red;
+    
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    border-bottom: 1px solid #D9D9D9;
+    text-align: start;
+    padding: 18px 22px 0px 22px;
+    color: #858585;
+    font-weight: bold;
+}
+
+.price{
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    background-color: white;
+    height: min-content;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#item-4{
+    border-bottom: none;
+}
+
+.bkash-payment img{
+    height: 29px;
+    width: 29px;
+}
+
+.bkash-payment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #D83868;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.12);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.bkash-payment h5{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.bkash-arrow{
+    color: #D83868;
+}
+
+.bkash-text{
+    color: #D83868;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.nagad-payment img{
+    height: 29px;
+    width: 29px;
+}
+
+.nagad-payment{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.12);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.nagad-payment h5{
+    display: flex;
+    gap: 125px;
+}
+
+.nagad-text{
+    color: #F7941D;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nagad-arrow{
+    color: #F7941D;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.line hr{
+    width: 100%;
+}
+
+
+.other-payment{
+    color: #242424;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.12);
+    padding: 20px;
+
+}
+
+

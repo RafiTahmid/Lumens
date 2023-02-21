@@ -1,0 +1,130 @@
+@media screen and (max-width: 575px) {
+    .book {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .book-img {
+        text-align: center;
+    }
+
+    .book-details {
+        text-align: center;
+    }
+
+    .lower-section {
+        /* position: relative;
+        top: -140px; */
+        margin-top: -140px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .lower-section {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .book {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .book-img {
+        text-align: center;
+    }
+
+    .book-details {
+        text-align: center;
+    }
+
+    .lower-section {
+
+        gap: 40px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .book {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .book {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .price {
+        width: 100%;
+    }
+
+    .book-img {
+        text-align: center;
+    }
+
+    .book-details {
+        text-align: center;
+    }
+
+    .lower-section {
+        /* position: relative;
+        top: -140px; */
+        margin-top: -140px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .book {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    .book {
+        width: 63%;
+    }
+
+}
+
+/* @media screen and (min-width: 14px){
+
+    
+
+} */

@@ -1,0 +1,445 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.top{
+    background-image: url(../images/Group\ 19009.png);
+    height: 165px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container{
+    background: transparent;
+    
+    border-radius: 12px;
+    margin-top: -95px;
+}
+.right-section{
+    background-color: #F5F6FA;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* -------------------------- Dashboard */
+.name{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #62D18D;
+    text-shadow: 0px 4px 8px rgba(98, 209, 141, 0.25);
+    padding-top: 22px;
+}
+.dashboard{
+    background-color: #ffffff;
+    border-radius: 12px;
+    height: 800px;
+    position: relative;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+.icon{
+    height: 18px;
+    width: 18px;
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.dashboard-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: rgba(36, 36, 36, 0.8);
+    padding-left: 20px;
+    margin-top: 12px;
+}
+
+.logout-btn{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: none;
+    
+}
+.dashboard-bottom{
+    position: absolute;
+    bottom: 0px;
+    border-top: 1px solid gray;
+    width: 100%;
+}
+.active{
+    background-color: rgba(98, 209, 141, 0.15);
+    border-right: 5px solid #62D18D;
+}
+
+/* ----------------------------------------------------- */
+.btn1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 110%;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background: #62D18D;
+    padding: 17px 18px;
+    border: none;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.btn{
+    font-weight: bold;
+    padding: 13px 35px;
+}
+
+.nav{
+    background-color: white;
+    border-radius: 12px 12px 0px 0px;
+}
+.user-btn{
+    border: none;
+    background-color: #FFFFFF;
+    padding-right: 20px;
+    border-radius: 12px;
+}
+.user-name{
+    font-weight: 600;
+    padding-top: 18px;
+}
+/* ------------------------------- */
+
+.cards-body{
+    padding: 18px 10px 80px 20px;
+    background: white;
+    margin: 20px 20px 50px 20px;
+    border-radius: 16px;
+}
+
+.course-img img{
+    width: 245px;
+    border-radius: 14px 14px 0 0;
+}
+
+.card{
+    width: 245px;
+    border-radius: 14px;
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.08);
+    border: none;
+    position: relative;
+}
+
+.course-name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C2C2C;
+}
+
+.progress-time{
+    font-weight: 500;
+    
+}
+
+.progress{
+    height: 4px;
+    width: 199px;
+}
+
+.progress-bar {
+    background-color: #62d180 !important;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    color: var(--bs-progress-bar-color);
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--bs-progress-bar-bg);
+    transition: var(--bs-progress-bar-transition);
+}
+
+.progress-text{
+    font-weight: 500;
+    color: #000000;
+    font-size: 14px;
+}
+
+.time-to-go{
+    font-weight: 500;
+    color: #242424;
+    font-size: 14px;
+}
+
+.progress-clr{
+    color: #62d18d;
+}
+
+hr{
+    margin: 0;
+}
+
+.course-name{
+    font-weight: 600;
+    font-size: 15px;
+    padding: 8px 0px 10px 15px;
+
+}
+
+.course-details{
+    padding: 8px 0px 10px 15px;
+    border-radius: 0 0 14px 14px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.08);
+}
+
+.author-details img{
+    height: 42px;
+    width: 42px;
+}
+
+
+/* positioned items */
+
+.intermediate-pos{
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+    width: 85px;
+    height: 16px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: #2C2C2C;
+    position: absolute;
+    right: 7px;
+    top: 131px;
+    border-radius: 3px;
+}
+.accepted-pos{
+    margin-bottom: 0;
+    width: 62px;
+    height: 17px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 11px;
+    color: white;
+    position: absolute;
+    right: 172px;
+    top: 15px;
+    border-radius: 3px;
+}
+
+.accept-clr{
+    background-color: #62D18D;
+}
+
+.pending-clr{
+    background-color: #F68900;
+}
+
+.rejected-clr{
+    background-color: #E42525;
+}
+
+
+/* css for my order booklist */
+
+.book-writer{
+    font-size: 18px;
+    color: #242424B2;
+    font-weight: 600;
+}
+
+.book-writer span{
+    font-size: 13px;
+    padding-left: 4px;
+    color: #242424B2;
+}
+
+.order-track{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.order-track p{
+    color: #242424;
+    font-weight: 500;
+}
+
+.book-order-overview{
+    background: white;
+    padding: 23px 15px 23px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-overview{
+    display: flex;
+    gap: 6%;
+}
+
+.book-overview img{
+    height: 180px;
+    border: 1px solid #ece4e4;
+}
+
+.paid-order{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end    ;
+}
+
+.btn-paid{
+    padding: 2px 9px;
+    border: none;
+    background: #62D18D;
+    border-radius: 7px;
+    color: white;
+}
+
+.order-id{
+    color: #858585;
+    border: 1px solid #85858566;
+    padding: 4px 9px;
+    border-radius: 8px;
+}
+
+.tablist{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.tablist a{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e9e0cf;
+    margin-right: 78px;
+    position: relative;
+    text-decoration: none;
+}
+.horizontal-line:before{ 
+    content: "";
+    width: 58px;
+    height: 2px;
+    background: #e9e0cf;
+    position: absolute;
+    right: 22px;
+    top: 5px;
+}
+.tablist span{
+    display: none;
+}
+
+
+/* Student dashboard user profile */
+
+.under-dashboard{
+    padding-left: 12px;
+    margin-top: 25px;
+    background: white;
+}
+
+.photo-name{
+    display: flex;
+    gap: 25px;
+}
+
+.user-james{
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-user{
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 18px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    width: 60px;
+}
+
+.input-section{
+    margin-top: 40px;
+    height: 50vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.input-data{
+    display: flex;
+    gap: 50px;
+}
+
+.input-section p{
+    color: #242424;
+    font-weight: 500;
+}
+
+.input-section input{
+    background: #F8F8F8;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    padding: 8px 20px;
+
+}
+
+.input-section ::placeholder{
+    color: #858585;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* Hide scrollbar arrows */
+.input-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    border-radius: 4px;
+
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ada9a9;
+    border-radius: 4px;
+    height: 30px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555555;
+  }
+  
+
+/* width
+::-webkit-scrollbar {
+  width: 20px;
+  height: 30px;
+}
+
+Track
+::-webkit-scrollbar-track {
+  background: #d14444; 
+}
+ 
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #380d0d; 
+  height: 30px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+} */ 
